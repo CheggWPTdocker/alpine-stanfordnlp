@@ -35,5 +35,3 @@ CMD /usr/bin/java -mx${APP_MEMORY} \
     -cp stanford-ner.jar edu.stanford.nlp.ie.NERServer \
     -loadClassifier ${APP_CLASSIFIER} \
     -port ${APP_PORT} -outputFormat ${APP_OUTPUT_FORMAT}
-
-
